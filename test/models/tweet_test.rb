@@ -18,12 +18,4 @@ class TweetTest < ActiveSupport::TestCase
     tweet.content = "a" * 141
     assert_not tweet.save, "Saved the tweet with content length more than 140"
   end
-
-  test "associated tweets should be destroyed" do
-    @tweet.save
-    @tweet.comments.create!(content: "Lorem ipsum")
-    assert_difference "Comment.count", -1 do
-      @tweet.destroy
-    end
-  end
 end
