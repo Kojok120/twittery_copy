@@ -1,24 +1,7 @@
-# README
+# ついったり
+## ソニックガーデンキャンプ　オリジナル課題
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Twitter(現X)を模倣
 
-Things you may want to cover:
+https://github.com/user-attachments/assets/00ba2263-a34b-4d3f-9685-2502f0183e3e
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
