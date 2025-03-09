@@ -1,0 +1,14 @@
+<div class="mb-4">
+  <%= link_to 'ツイート', new_tweet_path, class: 'btn btn-primary' %>
+</div>
+
+<div class="tweets">
+  <% @tweets.order(created_at: :desc).each do |tweet| %>
+    <div class="mb-3">
+      <div class="context-holder">
+        <p><%= tweet.content %></p>
+        <%= link_to '詳細', tweet_path(tweet), class: 'btn btn-outline-primary btn-sm' %>
+      </div>
+    </div>
+  <% end %>
+</div>

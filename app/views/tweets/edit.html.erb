@@ -1,0 +1,12 @@
+<h1>ステータスを編集</h1>
+
+<%= form_with(model: @tweet, local: true) do |f| %>
+  <div class="mb-3">
+    <%= f.text_area :content, class: 'form-control', rows: 4 %>
+  </div>
+
+  <div class="mb-3">
+    <%= f.submit 'ツイートを更新する', class: 'btn btn-primary' %>
+    <%= link_to '戻る', tweet_path(@tweet), class: 'btn btn-secondary' %>
+  </div>
+<% end %>

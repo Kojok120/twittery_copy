@@ -1,0 +1,61 @@
+@import "bootstrap";
+
+/* universal */
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+section {
+  overflow: auto;
+}
+
+.center {
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+.tweets{
+  .context-holder {
+    border: 2px solid #0190f6;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  /*マージンを調整*/
+  .mb-3 {
+    margin-bottom: 1.5rem !important; /* ツイート間の間隔を広げる */
+  }
+}
+
+/* ヘッダースタイル */
+.bg-lightblue {
+  background-color: #87CEFA !important; /* 水色の背景 */
+}
+
+.twittery-brand {
+  color: #000080 !important; /* 紺色のTwittery文字 */
+  font-weight: bold;
+}
+
+/* リンクのスタイル */
+.edit-link {
+  color: #0d6efd;
+  text-decoration: none;
+  margin-right: 10px;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.delete-link {
+  color: #dc3545;
+  text-decoration: none;
+  margin-right: 10px;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}

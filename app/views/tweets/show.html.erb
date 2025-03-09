@@ -1,0 +1,10 @@
+<div class="tweets">
+  <p class="context-holder"><%= @tweet.content %></p>
+  <div class="text-muted mb-3">
+    <%= @tweet.created_at.strftime('%Y/%m/%d %H:%M') %>
+  </div>
+  <div class="btn-group">
+    <%= link_to '編集', edit_tweet_path(@tweet), class: 'edit-link' %>
+    <%= link_to '削除', tweet_path(@tweet), data: { turbo_method: :delete, turbo_confirm: '削除してよろしいですか？' }, class: 'delete-link' %>
+  </div>
+</div>

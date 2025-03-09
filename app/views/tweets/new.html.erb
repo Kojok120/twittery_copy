@@ -1,0 +1,12 @@
+<h1>今何してんの？</h1>
+
+<%= form_with(model: @tweet, local: true) do |f| %>
+  <div class="mb-3">
+    <%= f.text_area :content, class: 'form-control', rows: 4, placeholder: '教えてよ' %>
+  </div>
+
+  <div class="mb-3">
+    <%= f.submit 'ツイートする', class: 'btn btn-primary' %>
+    <%= link_to '戻る', root_path, class: 'btn btn-secondary' %>
+  </div>
+<% end %>
