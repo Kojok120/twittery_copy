@@ -7,7 +7,7 @@ gem "propshaft"
 # Use bootstrap for styles 
 gem "bootstrap-sass",  "3.4.1"
 gem "sassc-rails",     "2.1.2"
-gem "sprockets-rails", "3.4.2"
+gem "sprockets-rails", "3.5.2"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", ">= 2.1"
 # Use the Puma web server [https://github.com/puma/puma]
