@@ -61,7 +61,7 @@ group :development do
   gem "web-console"
   gem "solargraph",          "0.51.1"
   gem "irb",                 "~> 1.13"
-  gem "repl_type_completor", "0.1.2"
+  gem "repl_type_completor", "0.1.10"
 end
 
 group :test do
