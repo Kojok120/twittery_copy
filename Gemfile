@@ -59,7 +59,7 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
-  gem "solargraph",          "0.51.1"
+  gem "solargraph",          "0.52.0"
   gem "irb",                 "~> 1.13"
   gem "repl_type_completor", "0.1.2"
 end
